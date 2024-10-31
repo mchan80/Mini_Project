@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-size: 2.4rem;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+header,
+footer {
+  float: left;
+  height: 300px;
+  width: 100%;
+  background: #52b465;
+  padding: 138px;
+}
+
+div {
+  float: left;
+  height: 500px;
+  padding: 238px 0px;
+}
+
+.div1 {
+  width: 20%;
+  background: #c2557f;
+}
+
+.div2 {
+  width: 40%;
+  background: #e0c15a;
+}
+
+.div3 {
+  width: 20%;
+  background: #d58a51;
+}
+
+.div4 {
+  width: 20%;
+  background: #b556a7;
+}
+
+/* *****************************This is for iPads***************************** */
+
+@media (min-width: 581px) and (max-width: 868px) {
+  header,
+  footer {
+    height: 260px;
+    padding: 118px;
+  }
+
+  .div1 {
+    height: 200px;
+    width: 100%;
+    padding: 88px 0px;
+  }
+
+  .div2,
+  .div3,
+  .div4 {
+    height: 400px;
+    padding: 188px 0px;
+  }
+
+  .div2 {
+    width: 100%;
+  }
+
+  .div3 {
+    width: 50%;
+  }
+
+  .div4 {
+    width: 50%;
+  }
+}
+
+/* *****************************This is for mobile***************************** */
+
+@media (max-width: 580px) {
+  header,
+  footer {
+    height: 200px;
+    padding: 88px 0px;
+  }
+
+  .div1,
+  .div3,
+  .div4 {
+    height: 160px;
+    width: 100%;
+    padding: 68px 0px;
+  }
+
+  .div2 {
+    height: 300px;
+    width: 100%;
+    padding: 138px;
+  }
+}
